@@ -2,8 +2,6 @@
 #define MUR_H
 
 #include "Case.h"
-
-// Mur — Case infranchissable. Représentée par '#'.
 class Mur : public Case {
 public:
     char afficher() const override { return '#'; }
@@ -11,5 +9,4 @@ public:
     bool estFranchissable() const override { return false; }
     void appliquerEffet(Aventurier& joueur) override;
 };
-
-#endif // MUR_H
+#endif 

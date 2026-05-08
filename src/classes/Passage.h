@@ -2,8 +2,6 @@
 #define PASSAGE_H
 
 #include "Case.h"
-
-// Passage — Couloir vide et franchissable. Représenté par ' '.
 class Passage : public Case {
 public:
     char afficher() const override { return ' '; }
@@ -12,4 +10,4 @@ public:
     void appliquerEffet(Aventurier& joueur) override;
 };
 
-#endif // PASSAGE_H
+#endif 

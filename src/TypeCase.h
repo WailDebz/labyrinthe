@@ -1,8 +1,5 @@
 #ifndef TYPECASE_H
 #define TYPECASE_H
-
-// Enumération des types de cases du donjon.
-// Utilisée par CaseFactory pour instancier la bonne sous-classe.
 enum class TypeCase {
     MUR,
     PASSAGE,
@@ -11,4 +8,4 @@ enum class TypeCase {
     PIEGE
 };
 
-#endif // TYPECASE_H
+#endif 
